@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="main">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>WebAppGo</title>
+	<link rel="stylesheet" type="text/css" href="/public/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/public/css/style.css">
+</head>
+<body>
+	<nav ng-include src="'/public/views/nav.html'" class="navbar navbar-default navbar-static-top"></nav>
+	<div ng-view></div>
+	<script type="text/javascript" src="/public/angular-1.5.8/angular.min.js"></script>
+	<script type="text/javascript" src="/public/angular-1.5.8/angular-route.js"></script>
+	<script type="text/javascript" src="/public/ocLazyLoad-master/dist/ocLazyLoad.js"></script>
+	<script type="text/javascript" src="/public/app.js"></script>
+</body>
+</html>
