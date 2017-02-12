@@ -1,3 +1,9 @@
+/* ***********************************************************************
+ *  Aqui se configura el ruteo de la app y el controller
+ * 
+ * ***********************************************************************
+*/
+
 'use strict';
 
 var app = angular.module('main', ['ngRoute']);
