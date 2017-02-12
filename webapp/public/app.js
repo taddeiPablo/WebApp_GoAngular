@@ -15,6 +15,6 @@ app.config(['$routeProvider', '$httpProvider', function($routeProvider) {
 }]);
 /*aqui el controller que corresponde a la view main*/
 app.controller('indexController', ['$scope', function($scope){
-    $scope.titulo = "Bienvenido a WebGO";
-    $scope.subtitulo = "Framework creado en go y angularjs";
+    $scope.title = " Bienvenido a WebGO";
+    $scope.subtitle = " Framework creado en go y angularjs";
 }]);

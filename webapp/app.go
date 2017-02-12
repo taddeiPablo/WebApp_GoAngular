@@ -1,7 +1,9 @@
-/*	punto de entrada al programa
+/* **********************************************
+ *	punto de entrada al programa
  * 	desde aqui se configura el framework
  *  se determina por que puerto se va a escuchar
  *	y el manejo de routes
+ * **********************************************
  */
 package main
 
@@ -18,6 +20,7 @@ func main() {
 	http.HandleFunc("/", controllers.Handler)
 	/*aqui se maneja las urls*/
 	http.HandleFunc("/data", controllers.Data)
+	/*aqui muestro */
 	log.Println("Listening...")
 	log.Println("Port : 8000")
 	
